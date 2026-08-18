@@ -1,1 +1,62 @@
+Shark Game — CS50x Week 0
+
+Overview
+
+Shark Game is an arcade-style game developed in Scratch as my Week 0 project for Harvard University's CS50x course.
+
+The player controls a shark and must catch moving fish to increase their score. The goal is to reach 50 points before the countdown timer reaches zero.
+
+How to Play
+
+- Start the game using the green flag.
+- Control the shark and move it toward the fish.
+- Catching a fish increases the score.
+- Fish disappear after being caught and return to the game at a new position.
+- Reach 50 points before the timer reaches zero to win.
+- If the timer reaches zero before reaching 50 points, the player loses.
+
+Features
+
+- Player-controlled shark
+- Multiple moving fish
+- Collision detection
+- Score system
+- Countdown timer
+- Win and Game Over screens
+- Sound effects and background music
+- Random fish positioning
+- Broadcast messages between sprites
+- Custom Scratch block with an input parameter
+
+Programming Concepts
+
+This project applies several fundamental programming concepts introduced in CS50x Week 0, including:
+
+- Variables for managing the score and timer
+- Conditional statements for game logic
+- Loops for continuously running game behavior
+- Events and broadcasts for communication between sprites
+- Randomization for changing fish positions
+- Collision detection
+- Custom blocks and inputs for abstraction
+
+Custom Block
+
+The project includes a custom block called "Move Fish (Speed)".
+
+The block accepts a "Speed" input and uses it to control the movement of a fish. This demonstrates how repeated behavior can be abstracted into a reusable custom block rather than placing all movement instructions directly in the main game script.
+
+Goal of the Project
+
+The purpose of this project was to apply the programming concepts learned in CS50x Week 0 by creating a complete interactive game from scratch.
+
+Rather than simply creating a visual animation, the project combines variables, conditions, loops, events, broadcasts, sounds, collision detection, and abstraction into a single playable program.
+
+Project
+
+- Course: Harvard CS50x
+- Week: 0 — Starting from Scratch
+- Language/Platform: Scratch
+- Project: Shark Game
+Link of game: https://scratch.mit.edu/projects/1369665332
 
